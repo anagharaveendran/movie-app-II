@@ -1,4 +1,4 @@
-import  { Component } from 'react';
+
 import {Link,} from "react-router-dom";
 import { ImageListItem, Typography,Rating} from '@mui/material';
 import './Details.css';
@@ -7,9 +7,9 @@ import moviesData from '../../common/moviesData';
 import ReactPlayer from 'react-player';
 import { GridList } from '@material-ui/core';
 
-class Details extends Component {
+const Details = (props) => {
   
-    render() { 
+   
         return ( <div>
           
             <div className="backButton">
@@ -73,6 +73,6 @@ class Details extends Component {
             </div>
         </div> );
     }
-}
+
  
 export default Details;
