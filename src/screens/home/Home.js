@@ -1,4 +1,4 @@
-
+import React, { useEffect } from "react";
 import { ImageList,ImageListItem,ImageListItemBar,TextField,Box,FormControl,Button} from '@mui/material';
 import genres from '../../common/genre';
 import './Home.css';
@@ -12,7 +12,14 @@ import { Link } from 'react-router-dom';
 
 
 const Home = (props) => {
-
+  useEffect(() => {
+ 
+//  fetch("https://documenter.getpostman.com/view/13634964/TzeXm81N")
+//                   .then((response)=>{ return response.json() })
+                 
+                    
+ 
+  }, []);
  
      
         return (<div>
